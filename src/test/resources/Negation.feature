@@ -1,6 +1,6 @@
 Feature: Negation
 Scenario Outline: Negate a number
-    Given a number, <num>
+    Given a number for negation, <num>
     When it is negated
     Then the negation result is <result>
     Examples:
