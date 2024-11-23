@@ -1,6 +1,6 @@
 Feature: Multiplication
 Scenario Outline: Multiply two numbers
-    Given two numbers, <num1> and <num2>
+    Given two numbers for multiplication, <num1> and <num2>
     When they are multiplied together
     Then the multiplication result is <result>
     Examples:

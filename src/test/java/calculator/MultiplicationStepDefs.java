@@ -11,8 +11,8 @@ public class MultiplicationStepDefs {
 
     private double num1, num2, result;
 
-    @Given("two numbers, {double} and {double}")
-    public void two_numbers_and(double num1, double num2) {
+    @Given("two numbers for multiplication, {double} and {double}")
+    public void two_numbers_for_multiplication_and(double num1, double num2) {
         this.num1 = num1;
         this.num2 = num2;
     }
