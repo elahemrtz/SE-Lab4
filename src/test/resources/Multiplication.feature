@@ -2,7 +2,7 @@ Feature: Multiplication
 Scenario Outline: Multiply two numbers
     Given two numbers, <num1> and <num2>
     When they are multiplied together
-    Then the result is <result>
+    Then the multiplication result is <result>
     Examples:
         | num1 | num2 | result |
         | 0 | 0 | 0 |
