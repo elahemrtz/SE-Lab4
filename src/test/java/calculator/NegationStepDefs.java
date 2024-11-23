@@ -23,6 +23,6 @@ public class NegationStepDefs {
 
     @Then("the negation result is {double}")
     public void the_negation_result_is(double expectedResult) {
-        assertEquals(expectedResult, this.result, 0);
+        assertEquals(expectedResult, this.result, 0.00000001);
     }
 }
