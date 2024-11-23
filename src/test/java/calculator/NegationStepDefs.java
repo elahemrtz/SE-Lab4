@@ -11,8 +11,8 @@ public class NegationStepDefs {
 
     private double num, result;
 
-    @Given("a number, {double}")
-    public void a_number(double num) {
+    @Given("a number for negation, {double}")
+    public void a_number_for_negation(double num) {
         this.num = num;
     }
 

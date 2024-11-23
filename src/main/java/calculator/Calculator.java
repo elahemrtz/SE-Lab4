@@ -18,7 +18,7 @@ public class Calculator {
     }
 
     public double sqrt(double num) {
-        return 0.0;
+        return Math.sqrt(num);
     }
 
     public double negate(double num) {
