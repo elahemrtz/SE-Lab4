@@ -22,6 +22,6 @@ public class Calculator {
     }
 
     public double negate(double num) {
-        return 0.0;
+        return -num;
     }
 }
