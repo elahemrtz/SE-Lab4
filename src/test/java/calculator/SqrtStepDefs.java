@@ -23,6 +23,6 @@ public class SqrtStepDefs {
 
     @Then("the sqrt result is {double}")
     public void the_sqrt_result_is(double expectedResult) {
-        assertEquals(expectedResult, this.result, 0.00000001);
+        assertEquals(expectedResult, this.result, 0);
     }
 }
