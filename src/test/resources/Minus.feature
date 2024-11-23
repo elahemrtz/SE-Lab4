@@ -1,6 +1,6 @@
 Feature: Minus
 Scenario Outline: Minus two numbers
-    Given two numbers, <num1> and <num2>
+    Given two numbers for minus, <num1> and <num2>
     When they are minusd together
     Then the minus result is <result>
     Examples:
